@@ -1,5 +1,6 @@
 usuarios= {}
 op = 1
+contador = 0
 while op < 3:
     usuario_ok=False
     print("1._iniciar sesion:")
@@ -30,4 +31,4 @@ while op < 3:
     if  usuario_ok == True:
         
 
-print(usuarios)
+        print(usuarios)
